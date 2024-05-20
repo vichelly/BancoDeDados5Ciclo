@@ -6,4 +6,4 @@ SELECT
   h.nota_final
 FROM Historico_Escolar h
 INNER JOIN Disciplinas d ON h.id_disciplina = d.id_disciplina
-INNER JOIN Alunos a ON h.id_aluno = a.id_aluno;  -- Join remains for relationship
+INNER JOIN Alunos a ON h.id_aluno = a.id_aluno; 

@@ -43,7 +43,7 @@ CREATE TABLE Matriz_Curricular (
 
 CREATE TABLE Historico_Escolar (
   id_historico INT NOT NULL,
-  ano INT NOT NULL,  -- Only define ano once
+  ano INT NOT NULL,
   nota_final FLOAT NOT NULL,
   semestre DECIMAL(2,0) NOT NULL,
   id_aluno INT NOT NULL,
@@ -51,7 +51,7 @@ CREATE TABLE Historico_Escolar (
   PRIMARY KEY (id_historico),
   FOREIGN KEY (id_aluno) REFERENCES Alunos(id_aluno),
   FOREIGN KEY (id_disciplina) REFERENCES Disciplinas(id_disciplina),
-  CONSTRAINT semestre_valido CHECK (semestre BETWEEN 1 AND 8)
+  CONSTRAINT semestre_valido CHECK (semestre IN (1, 2))
 );
 
 CREATE TABLE Grupo_de_TCC (

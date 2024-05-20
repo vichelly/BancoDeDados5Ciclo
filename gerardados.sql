@@ -17,11 +17,12 @@ SELECT
 INSERT INTO Historico_Escolar (id_historico, ano, semestre, nota_final, id_aluno, id_disciplina)
 SELECT 
     generate_series(1, 80) as id_historico,
-    floor(random() * 3) + 2020 AS ano, 
-    floor(random() * 8) + 1 AS semestre,  
+    floor(random() * 6) + 2019 AS ano,  
+    floor(random() * 2) + 1 AS semestre,  
     floor(random() * 100) as nota_final,
     floor(random() * 10) + 1 as id_aluno,
     floor(random() * 8) + 1 as id_disciplina;
+
 
 
 INSERT INTO Notas (id_nota, nota, id_historico)
