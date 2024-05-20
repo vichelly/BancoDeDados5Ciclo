@@ -32,3 +32,7 @@ O projeto de Banco de Dados consiste na criação de um modelo de banco para ser
    saber quais alunos formaram um grupo de TCC e qual professor foi o orientador
 
 
+
+##Diagrama Relacional
+
+![Diagrama Relacional](https://github.com/vichelly/BancoDeDados5Ciclo/blob/master/DiagramaRelacional.jpg)
