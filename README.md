@@ -10,7 +10,7 @@
 
 ## Descrição
 
-O projeto de Banco de Dados consiste na criação de um modelo de banco para ser usado por uma faculdade. Ele aborda diversos aspectos, desde a estruturação das tabelas até consultas complexas para análise de dados.
+O projeto de Banco de Dados consiste na criação de um modelo de banco para ser usado por uma faculdade. Ele aborda diversos aspectos, desde a estruturação das tabelas até consultas.
 
 ## Para Executar o Código
 
