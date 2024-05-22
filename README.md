@@ -17,8 +17,8 @@ O projeto de Banco de Dados consiste na criação de um modelo de banco para ser
 1. Clone o repositório ou baixe os arquivos individualmente.
 
 2. Abra o seu Sistema de Gerenciamento de Banco de Dados (SGBD) (por exemplo, PostgreSQL que foi utilizado para desenvolvimento do mesmo) e execute os scripts SQL na seguinte ordem:
-    - `create_tables.sql`: Este script cria todas as tabelas necessárias.
-    - `insert_data.sql`: Este script insere dados de exemplo nas tabelas.
+    - `createtable.sql`: Este script cria todas as tabelas necessárias.
+    - `gerardados.sql`: Este script insere dados de exemplo nas tabelas.
 
 3. Execute as queries SQL para resolver problemas específicos:
    - **item 1:** Histórico escolar de qualquer aluno, retornando o código e nome da disciplina, semestre e ano que a disciplina foi cursada e nota final.
